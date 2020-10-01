@@ -60,7 +60,7 @@ p {
     display: flex;
 }
 
-.my-avatar {
+#my-avatar {
     border: 2px solid black;
     padding: 2px;
     margin-right: 22px;
