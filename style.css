@@ -3,15 +3,6 @@
     .section {
         display: block;
     }
-    .logo {
-        margin-bottom: 12px;
-    }
-    .section .item-title {
-        margin-bottom: 12px;
-    }
-    .section .item-body {
-        margin: 0;
-    }
     .wrapper {
         width: 100%;
     }
