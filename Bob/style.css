@@ -8,8 +8,7 @@ body {
     font-size: 14px;
     font-family: sans-serif;
     background: turquoise;
-    color: black;
-    padding: 10px;
+    padding: 12px;
 }
 
 .main {
@@ -32,7 +31,7 @@ p {
     line-height: 1.75;
 }
 
-.wrapper {
+.mainbody {
     width: 60%;
     margin: 0 auto;
     margin-right: 0;
@@ -51,9 +50,9 @@ p {
     display: flex;
 }
 
-#my-avatar {
+#bob {
     border: 2px solid black;
-    padding: 2px;
+    padding: 12px;
     margin-right: 22px;
     border-radius: 22px;
     width: auto;

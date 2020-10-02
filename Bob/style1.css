@@ -106,20 +106,20 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
-.wrapper.dark-theme {
+.mainbody.dark-theme {
     background: #090909;
 }
 
-.wrapper.dark-theme .title,
-.wrapper.dark-theme .contact-info .phone,
-.wrapper.dark-theme .item-body p,
-.wrapper.dark-theme .skills figcaption,
-.wrapper.dark-theme .item-body ul {
+.mainbody.dark-theme .title,
+.mainbody.dark-theme .contact-info .phone,
+.mainbody.dark-theme .item-body p,
+.mainbody.dark-theme .skills figcaption,
+.mainbody.dark-theme .item-body ul {
     color: #FFFFFF;
 }
 
-.wrapper.dark-theme .item-body .light,
-.wrapper.dark-theme .item-body .year {
+.mainbody.dark-theme .item-body .light,
+.mainbody.dark-theme .item-body .year {
     color: #AAAAAA;
 }
 
