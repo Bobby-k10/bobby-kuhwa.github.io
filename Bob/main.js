@@ -2,16 +2,16 @@
 const darkBtn = document.querySelector(".slider");
 
 darkBtn.addEventListener("click", () => {
-    var mainbody = document.querySelector(".mainbody")
-    mainbody.classList.toggle("dark-theme");
+    var wrapper = document.querySelector(".wrapper")
+    wrapper.classList.toggle("dark-theme");
 });
 
 //Dark Mode for Small screens
 const darkmodeBtn = document.querySelector("#darkBtnS")
 darkmodeBtn.addEventListener("click", () => {
 
-    var mainbody = document.querySelector(".mainbody")
-    mai.classList.toggle("dark-theme");
+    var wrapper = document.querySelector(".wrapper")
+    wrapper.classList.toggle("dark-theme");
 
     if (document.querySelector(".moon").classList.contains("hide")) {
         document.querySelector(".moon").classList.remove("hide")

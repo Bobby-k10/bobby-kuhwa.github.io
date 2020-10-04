@@ -2,38 +2,48 @@
 <html lang="en">
 
 <head>
-    <!-- Responsiveness -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Required Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>BOBBY KUHWA'S RESUME PORTFOLIO</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;400;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./Bob/style.css" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicon_io/site.webmanifest">
 
-    <link rel="stylesheet" href="./Bob/style1.css" />
+    <title>Bobby Kuhwa</title>
 
-    <link rel="stylesheet" href="./Bob/style2.css" />
+    <!-- Light CSS -->
+    <link rel="stylesheet" href="./Bob/style.css">
+
+    <!-- Dark mode CSS -->
+    <link rel="stylesheet" href="./Bob/style1.css">
+
+    <!-- Mobile Responsive -->
+    <link rel="stylesheet" href="./Bob/style2.css">
+
 </head>
 
 <body>
     <div class="main">
-        <div class="mainbody">
+        <div class="wrapper">
             <!-- Nav bar Begins Here -->
             <nav class="info">
                 <div class="logo">
-                    <img id="bob" src="./Bob/bksb.png" alt="My Avatar" style="width:50%" />
-                    <div class="title"><span id="hp">Bobby</span> Kuhwa</div>
+                    <a href="#"><img class="my-avatar" src="./Bob/bksb.png" alt="My Avatar" width="69"></a>
+                    <div class="title">
+                        <span>Bobby</span> Kuhwa
+                    </div>
                 </div>
-                <ul class="contact">
-                    <li class="contact-item phone">(+234)7082149636</li>
-                    <li class="contact-item email">
-                        <a href="mailto:bobby.kuhwa@outlook.com">bobby.kuhwa@outlook.com</a
-              >
-            </li>
-            <li class="contact-item github">
-              <a href="https://github.com/Bobby-k10" target="_blank"
-                >bobby-k10.github.io
-              </a>
+                <ul class="contact-info">
+                    <li class="contact-item phone">+234 7082149636</li>
+                    <li class="contact-item email"><a href="mailto:bobby.kuhwa@outlook.com" target="_blank">bobby.kuhwa@outlook.com</a>
                     </li>
+                    <li class="contact-item github"><a href="https://bobby-k10.github.io" target="_blank">bobby-k10.github.io</a></li>
                 </ul>
             </nav>
             <!-- Nav bar Ends Here -->
@@ -43,12 +53,9 @@
                     <p class="bold">Intro</p>
                 </div>
                 <div class="item-body">
-                    <p>
-                        Hi, I am a Frontend web developer and an aspiring fullstack developer. I very recently participated in the eHA Africa Academy program where I built responsive and fast Web Pages including a Capstone project.
-                    </p>
-                    <p>
-                        I love learning new technologies and asides web development, I am usually playing around data analysis with Python.
-                    </p>
+                    <p>Hi, I am a Frontend web developer and an aspiring fullstack developer.</p>
+                    <p> I very recently participated in the eHA Africa Academy program where I built responsive and fast Web Pages including a Capstone project.</p>
+                    <p>I love learning new technologies and asides web development, I am usually playing around data analysis with Python.</p>
                 </div>
             </div>
 
@@ -67,23 +74,33 @@
                 </div>
                 <div class="item-body">
                     <figure>
-                        <img src="./Bob/HTML.png" alt="HTML 5 Logo" width="40" />
+                        <a href="https://html.com/">
+                            <img src="./Bob/HTML.png" alt="HTML 5 Image" width="51.28">
+                        </a>
                         <figcaption>HTML 5</figcaption>
                     </figure>
                     <figure>
-                        <img src="./Bob/CSS3.png" alt="CSS 3 Logo" width="40" />
+                        <a href="https://www.w3schools.com/css/default.asp">
+                            <img src="./Bob/CSS3.png" alt="CSS 3 Image" width="51.28">
+                        </a>
                         <figcaption>CSS3</figcaption>
                     </figure>
                     <figure>
-                        <img src="./Bob/JS.png" alt="Javascript Image" width="40" />
+                        <a href="https://javascript.com">
+                            <img src="./Bob/JS.png" alt="Javascript Image" width="73">
+                        </a>
                         <figcaption>Javascript</figcaption>
                     </figure>
                     <figure>
-                        <img src="./Bob/WordPress.png" alt="WordPress Logo" width="40" />
-                        <figcaption>WordPress</figcaption>
+                        <a href="https://wordpress.com/">
+                            <img src="./Bob/WordPress.png" alt="Wordpress Logo" width="72">
+                        </a>
+                        <figcaption>Wordpress</figcaption>
                     </figure>
                     <figure>
-                        <img src="./Bob/Python.png" alt="Python Logo" width="50" />
+                        <a href="https://www.python.org/">
+                            <img src="./Bob/Python.png" alt="Python Image" width="68">
+                        </a>
                         <figcaption>Python 3</figcaption>
                     </figure>
                 </div>
@@ -100,7 +117,7 @@
                             <p>Federal University of Agriculture Makurdi</p>
                             <p class="light">Makurdi, Nigeria</p>
                         </div>
-                        <div class="year">MAY 2018 - PRESENT</div>
+                        <div class="year">MAY 2017 - PRESENT</div>
                     </div>
                     <div class="education_item">
                         <div class="education_info">
@@ -122,31 +139,21 @@
                         <div class="exp">
                             <div class="experience_info">
                                 <p class="semi-bold">Northstone Shelters Limited</p>
-                                <p>Digital Marketer || Web Developer Intern.</p>
-                                <p class="light">Internship.</p>
+                                <p>Digital Marketer.</p>
+                                <p class="light">Full-Time Internship</p>
                             </div>
-                            <div class="year">SEPTEMBER 2019 - APRIL 2020</div>
+                            <div class="year">SEPTEMBER 2019 - MAY 2020</div>
                         </div>
                         <ul class="experience_role">
-                            <li>
-                                I participated in the succesful upgrade and optimization (SEO) of the organization's website.
-                            </li>
-                            <br />
-                            <li>
-                                I managed the Social Media handles of the organization and succesfully grew the follower base of the Facebook and Instagram handles by 112%.
-                            </li>
-                            <br />
-                            <li>
-                                Started an Email Marketing campaign which led to immediate contacts and deals.
-                            </li>
+                            <li>I participated in the succesful upgrade and optimization (SEO) of the organization's website.</li>
+                            <li>I managed the Social Media handles of the organization and succesfully grew the follower base of the Facebook and Instagram handles by 112%.</li>
+                            <li>Started an Email Marketing campaign which led to immediate contacts and deals.</li>
                         </ul>
                     </div>
                     <div class="experience_item">
                         <div class="exp">
                             <div class="experience_info">
-                                <p class="semi-bold">
-                                    Google Africa Developer Scholarship (GADS)
-                                </p>
+                                <p class="semi-bold">Google Africa Developer Scholarship (GADS)</p>
                                 <p>Mobile Web Specialist Track</p>
                                 <p class="light">Remote</p>
                             </div>
@@ -154,12 +161,8 @@
                         </div>
                         <ul class="experience_role">
                             <li>Learned how to structure webpages with HTML5.</li>
-                            <br />
                             <li>Leanred about styling webpages with CSS3.</li>
-                            <br />
-                            <li>
-                                Implemented a "Smart Pay" mobile app on Gradr using JavaScript.
-                            </li>
+                            <li>Implemented a "Smart Pay" mobile app on Gradr platform using JavaScript.</li>
                         </ul>
                     </div>
                 </div>
@@ -171,39 +174,39 @@
                 </div>
                 <div class="item-body">
                     <p>
-                        <a href="https://bobby-k10.github.io/Index.html" target="_blank">E-Health Africa Academy Challenges - github.io/index.html</a>
+                        <a href="https://bobby-k10.github.io/Index.html">EHA Cohort 2 Challenges</a>
                     </p>
 
-                    </p>
                 </div>
             </div>
 
             <div id="darkBtnS" class="dark_mode_for_small">
-                <img class="moon" src="./Bob/Moon.png" alt="Crescent" />
-                <img class="sun hide" src="./Bob/Sun.jpg" alt="Sun Image" />
+                <a href="#"><img class="moon" src="./Bob/Moon.png" alt="Moon Image"></a>
+                <a href="#"><img class="sun hide" src="./Bob/Sun.jpg" alt="Sun Image" width="20"></a>
             </div>
         </div>
         <div class="right">
             <div class="dark-mode_box">
                 <div class="dark-mode-items_container">
-                    <img src="./Bob/Sun.jpg" alt="Sun Image" width="25" />
+                    <img src="./Bob/Sun.jpg" alt="" width="25">
                     <label class="switch">
-              <input type="checkbox " />
-              <span class="slider round"></span> <br />
-            </label>
-                    <img src="./Bob/Moon.png " alt="Crescent" width="25" />
+                        <input type="checkbox">
+                        <span class="slider round"></span> <br>
+                    </label>
+                    <img src="./Bob/Moon.png" alt="" width="25">
                 </div>
-                <p>Click Me</p>
+                <p>Light Mode</p>
             </div>
             <div class="goto-top">
-                <a onclick="topFunction() " id="go-top ">
-                    <img src="./Bob/Arrow-up.png " alt="arrow " width="15 " /><br /> Top
+                <a onclick="topFunction()" id="go-top">
+                    <img src="./Bob/Arrow-up.png" alt=""><br> Back to top
                 </a>
             </div>
         </div>
     </div>
 
-    <script src="./Bob/main.js "></script>
+
+    <script src="./Bob/main.js"></script>
 </body>
 
 </html>
