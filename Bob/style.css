@@ -42,7 +42,7 @@ p {
 }
 
 .wrapper {
-    width: 817px;
+    width: 1000px;
     margin: 0 auto;
     margin-right: 0;
     box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.05);
@@ -177,7 +177,7 @@ p {
 
 .education_item .year {
     align-self: flex-end;
-    margin-left: 107px;
+    margin-left: 250px;
 }
 
 .experience .item-title {
